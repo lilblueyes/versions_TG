@@ -22,6 +22,7 @@ void InitTrajectoryGenerator(void)
     ghostPosition.linearSpeed = 0.0;
     ghostPosition.angularSpeed = 0.0;
 
+    controle.state = IDLE;
     controle.targetX = 0.0;
     controle.targetY = 0.0;
     controle.targetTheta = 0.0;
